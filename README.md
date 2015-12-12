@@ -1,4 +1,4 @@
-# Stuff for this
+# Rails Application template
 
 Open source base template for rails, get your new rails project up and running quickly. This is the bare minimum which I feel is enough to kickstart your rails project running postgres and rspec.
 
