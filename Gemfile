@@ -29,6 +29,12 @@ gem "jquery-rails"
 # Json
 gem "jbuilder", "~> 2.0"
 
+# Authentication/Authorization
+# gem "devise"
+# gem 'omniauth'
+# gem 'omniauth-facebook'
+# gem 'omniauth-twitter'
+
 # DB
 gem "pg"
 # gem "sqlite3"

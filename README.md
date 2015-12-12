@@ -58,6 +58,13 @@ rails g foundation:install
 
 - Using [Bullet](https://github.com/flyerhzm/bullet) is optional
 
+#### Registrations
+- Devise
+- OmniAuth
+```
+$ rails generate devise:install
+$ rails generate devise MODEL eg. MODEL => User
+```
 
 
 ### Test Depencies
