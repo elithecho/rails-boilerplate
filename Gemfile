@@ -13,8 +13,8 @@ gem "uglifier", ">= 1.3.0"
 gem "sass-rails", "~> 5.0"
 gem "autoprefixer-rails"
 # Uncommend what you need
-# gem 'bootstrap-sass', '~> 3.3.6'
-# gem 'foundation-rails' # Foundation 5
+# gem "bootstrap-sass", "~> 3.3.6"
+# gem "foundation-rails" # Foundation 5
 # gem "bourbon", "~> 4.2.0"
 # gem "neat", "~> 1.7.0"
 # Because some frameworks already provides normalization
@@ -31,17 +31,19 @@ gem "jbuilder", "~> 2.0"
 
 # Authentication/Authorization
 # gem "devise"
-# gem 'omniauth'
-# gem 'omniauth-facebook'
-# gem 'omniauth-twitter'
+# gem "omniauth"
+# gem "omniauth-facebook"
+# gem "omniauth-twitter"
+# gem "omniauth-google-oauth2"
+
+# MISC
+# gem "responders"
+# gem "capistrano-rails", :development # use capistrano for quicker deployment 
+# gem "airbrake", #airbrake 
 
 # DB
 gem "pg"
 # gem "sqlite3"
-
-# MISC
-# gem "capistrano-rails", :development # use capistrano for quicker deployment 
-# gem "airbrake", #airbrake 
 
 # Server
 # gem "thin", :development # my preference for development
@@ -79,5 +81,5 @@ group :test do
   gem "database_cleaner"
   # gem "terminal-notifier-guard" # for OSX
   gem "simplecov", :require => false # Test Coverage analytics
-  # gem 'webmock' # Mocking http request
+  # gem "webmock" # Mocking http request
 end
