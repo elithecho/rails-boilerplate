@@ -37,12 +37,12 @@ gem "jbuilder", "~> 2.0"
 # gem "omniauth-google-oauth2"
 
 # MISC
-# gem "responders"
+gem "responders"
 # gem "capistrano-rails", :development # use capistrano for quicker deployment 
 # gem "airbrake", #airbrake 
 
 # DB
-gem "pg"
+# gem "pg"
 # gem "sqlite3"
 
 # Server
