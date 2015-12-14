@@ -1,0 +1,31 @@
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Env normalization
+/.bundle
+/vendor/bundle
+/.env
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/bmp
+
+# these should all be checked in to normalise the environment:
+# # Gemfile.lock, .ruby-version, .ruby-gemset
