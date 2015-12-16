@@ -1,0 +1,76 @@
+AllCops:
+  RunRailsCops: true
+  Exclude:
+    - bin/**/*
+    - config/**/*
+    - db/**/*
+    - log/**/*
+    - public/**/*
+    - tmp/**/*
+    - vendor/**/*
+    - .gems/**/*
+    - spec/rails_helper.rb
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: true
+
+Style/IndentationWidth:
+  Width: 2
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: true
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+
+Style/StringLiterals:
+  Enabled: true
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/AlignHash:
+  EnforcedHashRocketStyle: key
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 10
+
+Metrics/AbcSize:
+  Max: 30
+
+Rails/TimeZone:
+  Enabled: false

@@ -63,6 +63,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "quiet_assets"
+  gem "rubocop", require: false
   # gem "bullet"
   # gem "refills" # For neat/bourbon users
 end
