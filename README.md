@@ -75,12 +75,22 @@ $ rails generate devise MODEL eg. MODEL => User
 
 ### Test Depencies
 
+Generate the folders and config for rspec and
+
 ```
 $ rails generate rspec:install
 
 # If you install webmock and rspec
 # spec/spec_helper
 require 'webmock/rspec'
+```
+
+If using *rspec-rails* and *devise*, add this into `spec/rails-helper` config to allow commands like current_user and sign_in
+
+```
+RSpec.configure do |config|
+  config.include Devise::TestHelpers, type: :controller
+  end
 ```
 
 ## Contributing
