@@ -80,7 +80,8 @@ end
 group :test do
   gem "capybara"
   gem "database_cleaner"
-  # gem "terminal-notifier-guard" # for OSX
   gem "simplecov", :require => false # Test Coverage analytics
+  gem 'shoulda-matchers', '~> 3.0'
   # gem "webmock" # Mocking http request
+  # gem "terminal-notifier-guard" # for OSX
 end
