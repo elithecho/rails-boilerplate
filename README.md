@@ -100,7 +100,8 @@ If using *rspec-rails* and *devise*, add this into `spec/rails-helper` config to
 ```
 RSpec.configure do |config|
   config.include Devise::TestHelpers, type: :controller
-  end
+  config.include FactoryGirl::Syntax::Methods
+end
 ```
 
 ## Contributing
