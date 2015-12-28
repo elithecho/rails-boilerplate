@@ -72,7 +72,7 @@ group :development, :test do
   gem "dotenv-rails"
   gem "pry-rails"
   gem "byebug"
-  gem "factory_girls_rails"
+  gem "factory_girl_rails"
   gem "rspec-rails"
   # gem "ffaker" # Generates fake data
 end
