@@ -1,0 +1,13 @@
+nav.navbar.navbar-default.main-nav
+  .container
+    .navbar-header
+      button.navbar-toggle.collapsed data-toggle="collapse" data-target="#navigation-collapsable" aria-expanded="false"
+        span.sr-only Toggle Nagivation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      = link_to "Brand", root_path, class: "navbar-brand"
+  
+    .collapse.navbar-collapse#navigation-collapsable
+      ul.nav.navbar-nav.navbar-right
+        li = link_to 'Home', root_path
